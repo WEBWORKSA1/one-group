@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /_src/
-Disallow: /_build/
+Disallow: /scripts/
 Sitemap: https://one.group/sitemap.xml
