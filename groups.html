@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Find a Group — Communities, Clubs & Online Groups Directory | One.Group</title>
+<meta name="description" content="Search the One.Group directory of communities, clubs, teams and online groups. Filter by interest, city, platform (WhatsApp, Telegram, Discord, Slack), price and verification.">
+<link rel="canonical" href="https://one.group/groups.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#5b3df5">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="One.Group">
+<meta property="og:title" content="Find a Group — Communities, Clubs & Online Groups Directory | One.Group">
+<meta property="og:description" content="Search the One.Group directory of communities, clubs, teams and online groups. Filter by interest, city, platform (WhatsApp, Telegram, Discord, Slack), price and verification.">
+<meta property="og:url" content="https://one.group/groups.html">
+<meta property="og:image" content="https://one.group/assets/img/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem('og_theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+
+</head>
+<body data-nav="groups">
+<a class="skip" href="#main">Skip to content</a>
+<div class="topbar" role="note">
+  <a data-broker href="https://web.works/contact" target="_blank" rel="noopener">Contact, if you are interested in this website / domain name / Sponsorship / Advertisement / Partnership →</a>
+</div>
+<div id="og-header"></div>
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Find Groups</div>
+    <h1>Find your <span class="grad-text">group</span></h1>
+    <p>Search communities in person and online. Can’t find the right fit? <a href="#matchme">Let us match you</a> for free.</p>
+  </div>
+</section>
+<section style="padding-top:0">
+  <div class="container dir">
+    <form class="filters" id="filters" onsubmit="return false">
+      <label for="f-q">Keyword</label><input id="f-q" type="search" placeholder="e.g. hiking, AI">
+      <h4>Location</h4><input id="f-where" type="text" placeholder="City, country or online">
+      <h4>Category</h4><select id="f-cat"><option value="">All categories</option></select>
+      <h4>Platform</h4><select id="f-platform"><option value="">Any platform</option></select>
+      <h4>Price</h4><select id="f-price"><option value="">Any</option><option value="free">Free</option><option value="paid">Paid / donation</option></select>
+      <h4>Sort</h4><select id="f-sort"><option value="members">Most members</option><option value="new">Newest</option><option value="name">A–Z</option></select>
+      <label class="check" style="margin-top:14px"><input id="f-verified" type="checkbox"> Verified groups only</label>
+      <button type="button" id="f-reset" class="btn btn-ghost btn-sm btn-block" style="margin-top:12px">Reset filters</button>
+      <div class="ad-slot" data-ad="sidebar" style="padding:0;margin:20px 0 0"></div>
+    </form>
+    <div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:10px">
+        <b id="dir-count">Loading…</b>
+        <a class="btn btn-primary btn-sm" href="list-your-group.html">+ Add your group</a>
+      </div>
+      <p class="form-note" style="margin-top:-6px">Listings shown are illustrative samples while the directory launches. Real, verified groups replace them as organizers submit.</p>
+      <div class="grid g2" id="dir-results"></div>
+    </div>
+  </div>
+</section>
+<div class="ad-slot" data-ad="inContent"></div>
+<section class="alt" id="matchme">
+  <div class="container grid g2" style="align-items:center">
+    <div>
+      <span class="eyebrow">Concierge match</span>
+      <h2>Tell us what you’re looking for — we’ll find the group.</h2>
+      <p class="muted">Our team hand-picks up to 3 groups that match your interests, schedule and location and emails them to you. Free.</p>
+      <ul class="muted"><li>Personal recommendations within 48 hours</li><li>In-person or online, any language</li><li>No account, unsubscribe any time</li></ul>
+    </div>
+    <form class="panel form" data-form="Group Match Request" data-success="Got it! We'll send your personalised group matches within 48 hours.">
+      <div class="row"><div><label>Your name</label><input name="name" required></div><div><label>Email</label><input type="email" name="email" required></div></div>
+      <div class="row"><div><label>Interest</label><input name="interest" placeholder="e.g. trail running" required></div><div><label>City (or Online)</label><input name="location" required></div></div>
+      <div><label>Preferred format</label><select name="format"><option>Either</option><option>In person</option><option>Online</option></select></div>
+      <div><label>Anything else?</label><textarea name="notes" placeholder="Schedule, age range, language, budget…"></textarea></div>
+      <label class="check"><input type="checkbox" name="consent" value="yes" required> I agree to be contacted about my request and accept the <a href="privacy.html">Privacy Policy</a>.</label>
+      <button class="btn btn-primary" type="submit">Match me with groups</button>
+      <div class="form-status"></div>
+    </form>
+  </div>
+</section>
+
+</main>
+<div id="og-footer"></div>
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
